@@ -1,0 +1,27 @@
+{
+  "name": "sidebar-footer",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./components": "./dist/components/index.js"
+  },
+  "scripts": {
+    "build": "esbuild components/index.ts --bundle --platform=node --format=esm --packages=external --outbase=. --outdir=dist"
+  },
+  "quartz": {
+    "name": "sidebar-footer",
+    "displayName": "Sidebar Footer",
+    "description": "Compact links and site information below the folder cards",
+    "version": "1.0.0",
+    "category": "component",
+    "components": {
+      "SidebarFooter": {
+        "name": "SidebarFooter",
+        "displayName": "Sidebar Footer",
+        "description": "GitHub, site navigation, RSS, and copyright links",
+        "version": "1.0.0"
+      }
+    }
+  }
+}
