@@ -9,7 +9,7 @@ tags:
 medium:
   - library
 description: Free abstract / Brutalist Vector Shapes
-cover: "[[julzdao/computer-science/assets/maxiblocks.png]]"
+cover: "[[maxiblocks.png]]"
 lifecycle:
   - seed
 link: https://www.figma.com/community/file/1532351178915770638/free-vector-shapes-abstract-geometric-memphis-brutalist-brutalism
@@ -25,4 +25,4 @@ Almost every illustration cover image from this digital garden is made with figm
 
 Link to library: https://www.figma.com/community/file/1532351178915770638/free-vector-shapes-abstract-geometric-memphis-brutalist-brutalism 
 
-![[julzdao/computer-science/assets/maxiblocks.png]]
+![[maxiblocks.png]]

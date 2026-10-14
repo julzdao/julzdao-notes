@@ -1,5 +1,5 @@
 ---
-up: "[[julzdao/computer-science/Git]]"
+up: "[[Git]]"
 title: Git Remote
 aliases:
   - git remote
@@ -14,7 +14,7 @@ lifecycle:
   - sapling
 ---
 A **Git Remote** is a named reference 
-to another [[julzdao/computer-science/Git]] repository. 
+to another [[Git]] repository. 
 When cloning a project, 
 Git usually creates 
 the `origin` remote automatically.

@@ -17,7 +17,7 @@ lifecycle:
 ---
 A **Graphics Context** is the interface 
 used to draw on a surface such 
-as a screen or a [[julzdao/computer-science/Buffered Image]]. 
+as a screen or a [[Buffered Image]]. 
 It encapsulates graphical operations so that 
 pixels do not have to be manipulated individually.
 

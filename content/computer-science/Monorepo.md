@@ -50,7 +50,7 @@ monorepo/
 Source: [Monorepo Guide Medium](https://medium.com/@julakadaredrishi/monorepos-a-comprehensive-guide-with-examples-63202cfab711) 
 
 
-> [!tip] Use a [[julzdao/computer-science/makefile]] to run different apps
+> [!tip] Use a [[makefile]] to run different apps
 > For running each application in a separate way, create a `makefile` to run commands targeting each application. 
 > 
 

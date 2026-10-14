@@ -1,5 +1,5 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Variable Scope in Java
 tags:
   - l/java

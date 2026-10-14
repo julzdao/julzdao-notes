@@ -1,5 +1,5 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Compile-Time vs Runtime Error
 tags:
   - l/java
@@ -12,10 +12,10 @@ lifecycle:
   - sapling
 ---
 A **compile-time error** prevents 
-the generation of valid [[julzdao/computer-science/byte]] code: incorrect syntax, 
+the generation of valid [[byte]] code: incorrect syntax, 
 incompatible types or unreachable code. 
 A **runtime error** occurs after compilation, 
-during execution on the [[julzdao/computer-science/JVM]].
+during execution on the [[JVM]].
 
 ---
 
@@ -25,13 +25,13 @@ int x = "hello"; // compile-time
 ```
 
 Imagine you're writing a highly detailed script for a play 🎭.   
-The [[julzdao/computer-science/Java Compiler]] is the **Script Editor**,   
-and the [[julzdao/computer-science/JVM]] Runtime is the actual **Performance Director**.  
+The [[Java Compiler]] is the **Script Editor**,   
+and the [[JVM]] Runtime is the actual **Performance Director**.  
 
-Before the first rehearsal even begins, the [[julzdao/computer-science/Java Compiler]] reviews the manuscript.   
+Before the first rehearsal even begins, the [[Java Compiler]] reviews the manuscript.   
 They look for grammatical mistakes, misspelled character names, or impossible stage directions.  
 
-The [[julzdao/computer-science/JVM]] takes the _perfectly edited script.   
+The [[JVM]] takes the _perfectly edited script.   
 and starts the actual performance.   
 Everything is fine until an actor is told to   
 divide the props in half—but the prop count is zero.   

@@ -1,5 +1,5 @@
 ---
-up: "[[julzdao/agriculture/Controlled Environment Agriculture]]"
+up: "[[Controlled Environment Agriculture]]"
 title: Resource Efficiency
 description: Default Description
 number:
@@ -13,7 +13,7 @@ type:
 hasFundamental: true
 lifecycle:
   - sapling
-cover: "[[julzdao/agriculture/assets/resource-efficiency.png]]"
+cover: "[[resource-efficiency.png]]"
 ---
 Resource efficiency means 
 **producing more food while 
@@ -23,9 +23,9 @@ using fewer natural resources**.
 
 ---
 
-For this goal, [[julzdao/agriculture/Precision Agriculture]] is used in [[julzdao/agriculture/Controlled Environment Agriculture]] along with [[julzdao/computer-science/Resource-Constrained Systems]]. Although this remains to be properly investigated. 
+For this goal, [[Precision Agriculture]] is used in [[Controlled Environment Agriculture]] along with [[Resource-Constrained Systems]]. Although this remains to be properly investigated. 
 
-Hence, the resources needed to ensure [[julzdao/agriculture/Food Security]] are less, so that [[Long term Thinking]] is in mind for the future and reduce food imports. 
+Hence, the resources needed to ensure [[Food Security]] are less, so that [[Long term Thinking]] is in mind for the future and reduce food imports. 
 
 ## References 
 

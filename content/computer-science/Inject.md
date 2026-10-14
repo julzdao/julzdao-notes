@@ -3,7 +3,7 @@ up:
 type:
   - concept
 cs-fundamentals:
-  - "[[julzdao/computer-science/KISS Principle]]"
+  - "[[KISS Principle]]"
 tags:
   - fr/angular
   - cs/dependency
@@ -22,7 +22,7 @@ Forgetting the constructor way.
 
 ## The Old Constructor Way 
 
-With [[julzdao/computer-science/Java]], dependency injection happened normally by passing the service to the constructor of the class like: `JavaClass(SomeService someService)` . 
+With [[Java]], dependency injection happened normally by passing the service to the constructor of the class like: `JavaClass(SomeService someService)` . 
 
 This was also true for early Angular days. 
 

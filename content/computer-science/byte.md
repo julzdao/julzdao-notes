@@ -1,12 +1,12 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: byte
 tags:
   - l/java
   - cs/data-types
   - cs/binary
 cs-foundations:
-  - "[[julzdao/computer-science/Binary]]"
+  - "[[Binary]]"
 type:
   - concept
 description: 8-bit signed primitive integer

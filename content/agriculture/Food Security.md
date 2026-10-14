@@ -8,7 +8,7 @@ tags:
 type:
   - concept
 description: Sufficient food for everyone
-cover: "[[julzdao/agriculture/assets/security.png]]"
+cover: "[[security.png]]"
 lifecycle:
   - sapling
 ---
@@ -25,7 +25,7 @@ Being the Agriculture sector, the responsible for providing "*food for everyone*
 > A fundamental step toward addressing food insecurity is for policymakers to assess their country's [[Food self-sufficiency Ratio]]. [4]
 
 As stated in this research from Li C[^2], *"ensuring food security requires not only addressing*
-*the most fundamental and direct factors but also incorporating a broader range of indirect factors that may impact food security into the research."* That means not only taking into account climate change, economic security, or social changes, but also [[julzdao/computer-science/Cybersecurity in CEA]] and Resource efficient systems for the [[julzdao/agriculture/Controlled Environment Agriculture]] to be much more sustainable in the long run. 
+*the most fundamental and direct factors but also incorporating a broader range of indirect factors that may impact food security into the research."* That means not only taking into account climate change, economic security, or social changes, but also [[Cybersecurity in CEA]] and Resource efficient systems for the [[Controlled Environment Agriculture]] to be much more sustainable in the long run. 
 
 > [!info] Most vulnerable sector
 > With the increasing intensity of climate change and the growing frequency of extreme

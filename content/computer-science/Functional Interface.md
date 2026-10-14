@@ -1,5 +1,5 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Functional Interface
 cs-foundations:
 tags:
@@ -32,6 +32,6 @@ A functional interface
 comes super handy 
 since having only one 
 abstract method is enough for 
-the [[julzdao/computer-science/Java Compiler]] to know that 
+the [[Java Compiler]] to know that 
 when a Simplified Lambda Expressions 
 is called, the method being used is that one. 

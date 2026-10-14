@@ -5,7 +5,7 @@ tags:
   - microej
   - cs/design-pattern
 cs-foundations:
-  - "[[julzdao/computer-science/Encapsulation]]"
+  - "[[Encapsulation]]"
 type:
   - principle
 description: Building complex objects step by step using a clear interface
@@ -33,7 +33,7 @@ User user = new User.Builder("Julian")
     .build();
 ```
 
-The code describes **what we want to build**, whilst `User.Builder` encapsulates how the object is ultimately built and validated. This links the Builder pattern to [[julzdao/computer-science/Encapsulation]] and helps to avoid the well-known telescoping constructors.
+The code describes **what we want to build**, whilst `User.Builder` encapsulates how the object is ultimately built and validated. This links the Builder pattern to [[Encapsulation]] and helps to avoid the well-known telescoping constructors.
 
 In MicroEJ, we can apply the same idea to build a page using composition. Let’s imagine an IoT screen that displays information from a sensor:
 

@@ -8,7 +8,7 @@ tags:
   - ag/CEA
   - ag/systems
   - cs/iot
-cover: "[[julzdao/agriculture/assets/precision-agriculture.png]]"
+cover: "[[precision-agriculture.png]]"
 ---
 ## The Language of Nature
 
@@ -22,7 +22,7 @@ or microorganism is saying.
 > Precision agriculture comprises a set of technologies that combines sensors, information systems, enhanced machinery, and informed management to optimize production by accounting for variability and uncertainties within agricultural systems.
 > Source: [Precision Agriculture and Food Security](https://www.science.org/doi/abs/10.1126/science.1183899) 
 
-Inside a [[julzdao/agriculture/Controlled Environment Agriculture]], Precision Agriculture helps to provide the necessary information to create the same optimal conditions for the plant to grow. 
+Inside a [[Controlled Environment Agriculture]], Precision Agriculture helps to provide the necessary information to create the same optimal conditions for the plant to grow. 
 
 > PA is conceptualized by a system approach to re-organize the total system of agriculture towards a low-input, high-efficiency, sustainable agriculture (Shibusawa, 1998)
 

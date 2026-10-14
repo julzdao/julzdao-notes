@@ -1,5 +1,5 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Checked vs Unchecked Exceptions
 tags:
   - l/java
@@ -19,12 +19,12 @@ in any project:
 
 ---
 
-Checked Exceptions are the  foreseeable Risks which the [[julzdao/computer-science/Java Compiler]] is able to detect.   
+Checked Exceptions are the  foreseeable Risks which the [[Java Compiler]] is able to detect.   
 
 Unchecked Exceptions are the Unforeseeable accidents or programmer errors that are   
-produced while the [[julzdao/computer-science/JVM]] is being run.   
+produced while the [[JVM]] is being run.   
 
-This is how differ the [[julzdao/computer-science/Compile-Time vs Runtime Error]].
+This is how differ the [[Compile-Time vs Runtime Error]].
 #### Common Checked Exceptions 
 `IOException`, `SQLException`, `FileNotFoundException`, `InterruptedException`.
 

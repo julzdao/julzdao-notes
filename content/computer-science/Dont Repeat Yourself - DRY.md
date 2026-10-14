@@ -4,15 +4,15 @@ title: Don't Repeat Yourself
 aliases:
   - DRY
 cs-foundations:
-  - "[[julzdao/computer-science/Coupling]]"
-  - "[[julzdao/computer-science/Single Point of Truth|Single Point of Truth]]"
+  - "[[Coupling]]"
+  - "[[Single Point of Truth|Single Point of Truth]]"
 tags:
   - cs/clean-code
   - cs/foundations
 type:
   - principle
 description: Avoid multiple representations of the same knowledge
-cover: "[[julzdao/computer-science/assets/DONOTREPEAT.png]]"
+cover: "[[DONOTREPEAT.png]]"
 lifecycle:
   - sapling
 ---
@@ -43,9 +43,9 @@ isValidUsername(username);
 ```
 
 > [!warning]  
-> DRY does not mean removing any similar code. Two code snippets may appear identical today but represent different concepts. Abstracting them too soon can create unnecessary [[julzdao/computer-science/Coupling]].
+> DRY does not mean removing any similar code. Two code snippets may appear identical today but represent different concepts. Abstracting them too soon can create unnecessary [[Coupling]].
 
-DRY is particularly closely linked to [[julzdao/computer-science/Single Point of Truth|Single Point of Truth]] : DRY prevents **duplication of knowledge**, whilst SSOT establishes **which representation is the authoritative one** for that knowledge.
+DRY is particularly closely linked to [[Single Point of Truth|Single Point of Truth]] : DRY prevents **duplication of knowledge**, whilst SSOT establishes **which representation is the authoritative one** for that knowledge.
 
 According to [Kent Beck](https://martinfowler.com/bliki/BeckDesignRules.html), he wrote four rules of simple design to follow: 
 

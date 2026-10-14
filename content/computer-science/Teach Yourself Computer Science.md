@@ -3,7 +3,7 @@ up:
 type:
   - reference
 cs-foundations:
-  - "[[julzdao/computer-science/Single Point of Truth|Single Point of Truth]]"
+  - "[[Single Point of Truth|Single Point of Truth]]"
 medium:
   - website
 tags:

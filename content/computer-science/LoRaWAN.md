@@ -3,7 +3,7 @@ up:
 type:
   - concept
 cs-fundamentals:
-  - "[[julzdao/computer-science/Mesh Network]]"
+  - "[[Mesh Network]]"
 tags:
   - iot/protocol
   - iot/lora
@@ -20,9 +20,9 @@ to the Internet.
 
 ---
 
-Even though [[julzdao/computer-science/LoRa]] is the radio signal technology, LoRaWan is the protocol and network architecture that manages all the data, connection and communication over that [^1]signal. 
+Even though [[LoRa]] is the radio signal technology, LoRaWan is the protocol and network architecture that manages all the data, connection and communication over that [^1]signal. 
 
-Together, they provide a great combo for connecting low-power or [[julzdao/computer-science/Resource-Constrained Systems]] and devices over long distances, making them a key technology for [[julzdao/computer-science/IoT]]. 
+Together, they provide a great combo for connecting low-power or [[Resource-Constrained Systems]] and devices over long distances, making them a key technology for [[IoT]]. 
 
 > To address these needs, low-power wide area network (LPWAN) technology has emerged as the favored connectivity option for IoT networks due to its extensive communication range, energy efficiency, and cost-effectiveness.
 > Source in footnotes[^2] 
@@ -31,16 +31,16 @@ Together, they provide a great combo for connecting low-power or [[julzdao/compu
 
 The LoRaWAN network architecture consists of three main components: 
 
-1. **End Devices**: The sensors spread out in the field. Transmitting small data packages over [[julzdao/computer-science/LoRa]] radio signal. 
+1. **End Devices**: The sensors spread out in the field. Transmitting small data packages over [[LoRa]] radio signal. 
 2. **Gateways (base stations)**: A receiving station connected to the Internet. It listens to all the messages from the end devices within its range. 
 3. **Network Server**: The central brain of the operation. Receives the data from all the gateways, removes duplicate messages (a message can reach multiple gateways), and points to the proper application server. 
 
-![[julzdao/computer-science/assets/lorawan-example.png]]
+![[lorawan-example.png]]
 > Representative LoRaWAN deployment, with a Raspberry Pi 4 with LoRaWAN Gateway HAT, and a Dragino SDI-12 to LoRaWAN converter. The Gateway then forwards packets to the network and application server. 
 > [Wikipedia](https://en.wikipedia.org/wiki/LoRaWAN#cite_note-1)
 
 
-![[julzdao/computer-science/assets/lora-arch.png]]
+![[lora-arch.png]]
 Source: https://www.youtube.com/watch?v=YQ7aLHCTeeE
 ## References 
 

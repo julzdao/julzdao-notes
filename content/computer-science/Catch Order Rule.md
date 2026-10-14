@@ -1,5 +1,5 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Catch Order Rule
 tags:
   - cs/error-handling
@@ -11,11 +11,11 @@ cover:
 lifecycle:
   - sapling
 ---
-If the [[julzdao/computer-science/Java Compiler|Java Compiler]]
+If the [[Java Compiler|Java Compiler]]
 is able to recognise that    
 the second Exception will   
 never be catched, then it   
-will throw an [[julzdao/computer-science/Unreachable Statement|Unreachable Statement]] 
+will throw an [[Unreachable Statement|Unreachable Statement]] 
 
 ---
 

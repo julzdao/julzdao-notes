@@ -1,12 +1,12 @@
 ---
-up: "[[julzdao/agriculture/Microgreens]]"
+up: "[[Microgreens]]"
 related:
 title: Coco coir soil
 description: Default Description
 stage:
   - seed
 icon: File
-cover: "[[julzdao/agriculture/assets/coco.png]]"
+cover: "[[coco.png]]"
 timestamp: 2025-11-25T01:35:00
 tags:
   - ag/microgreens

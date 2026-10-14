@@ -4,7 +4,7 @@ type:
   - technique
   - moc
 cs-fundamentals:
-  - "[[julzdao/computer-science/Mesh Network]]"
+  - "[[Mesh Network]]"
 tags:
   - cs/iot
   - cs/network
@@ -23,9 +23,9 @@ Great for hard-to-reach locations.
 
 ## What is LoRa?
 
-In simple terms, LoRa (from "long range"), is a low-power[^2] radio communication technique, similar to Wi-Fi, [[julzdao/computer-science/Zigbee]] or Bluetooth, but with a longer range for sending and receiving messages. It uses the [[julzdao/computer-science/LoRaWAN]] "Long Range Wide Area Network" as protocol to how two or more devices communicate within the LoRa technique. 
+In simple terms, LoRa (from "long range"), is a low-power[^2] radio communication technique, similar to Wi-Fi, [[Zigbee]] or Bluetooth, but with a longer range for sending and receiving messages. It uses the [[LoRaWAN]] "Long Range Wide Area Network" as protocol to how two or more devices communicate within the LoRa technique. 
 
-The main protagonist making this communication possible is the [[julzdao/computer-science/Chirp Spread Spectrum]], developed recently by *Semtech* in 2014. 
+The main protagonist making this communication possible is the [[Chirp Spread Spectrum]], developed recently by *Semtech* in 2014. 
 
 In contrast with Wi-Fi, it can only work with small data packages, trading it for greater sensitivity and range. Wi-Fi is great for streaming and all kinds of things, but not for stable long range connection. Just go to a rural village. 
 
@@ -34,9 +34,9 @@ In contrast with Wi-Fi, it can only work with small data packages, trading it fo
 
 ## Applications
 
-This protocol technology is great for [[julzdao/computer-science/Resource-Constrained Systems]] where there is no Wi-Fi coverage or data should be emitted in long-range scenarios. 
+This protocol technology is great for [[Resource-Constrained Systems]] where there is no Wi-Fi coverage or data should be emitted in long-range scenarios. 
 
-For the appliance in projects related with [[julzdao/agriculture/Hydroponics]], it may improve the Energy and [[julzdao/agriculture/Resource Efficiency]] while also improving the Continuity of the system [^1]. 
+For the appliance in projects related with [[Hydroponics]], it may improve the Energy and [[Resource Efficiency]] while also improving the Continuity of the system [^1]. 
 
 > [!info] Comment from Article on Hydroponics Setup
 > The CM4 NAS system consumes 10–12W of power and operates 24/7.  This ensures that data in the greenhouse is never lost.  

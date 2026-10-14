@@ -2,7 +2,7 @@
 up:
 title: Open Closed Principle
 cs-fundamentals:
-  - "[[julzdao/computer-science/Polymorphism]]"
+  - "[[Polymorphism]]"
 tags:
   - cs/clean-code
   - cs/design-pattern
@@ -24,7 +24,7 @@ modifying existing implementation.
 > The strongest tree grows new branches.  
 > It doesn’t replace its trunk.
 
-The idea is not that the code can never be modified. The aim is to identify the points where we expect variation and to protect the rest of the system through abstraction. Interfaces, [[julzdao/computer-science/Polymorphism]] and composition allow new implementations to be introduced whilst keeping the code that uses them stable.
+The idea is not that the code can never be modified. The aim is to identify the points where we expect variation and to protect the rest of the system through abstraction. Interfaces, [[Polymorphism]] and composition allow new implementations to be introduced whilst keeping the code that uses them stable.
 
 For example, let’s imagine a system that calculates different types of discounts:
 

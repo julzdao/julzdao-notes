@@ -1,5 +1,5 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Garbage Collector
 aliases:
   - GC
@@ -15,7 +15,7 @@ lifecycle:
   - sapling
 ---
 The Garbage Collector (GC) 
-is the [[julzdao/computer-science/JVM]]'s automatic 
+is the [[JVM]]'s automatic 
 memory management system. 
 
 ---
@@ -24,12 +24,12 @@ memory management system.
 It automatically **deallocates** (frees up) memory occupied by objects that are no longer actively used by the program.
 
 GC primarily operates on the 
-[[julzdao/computer-science/Heap Space]] memory area of the [[julzdao/computer-science/JVM]], 
+[[Heap Space]] memory area of the [[JVM]], 
 where all Java objects reside.
 
 > [!info] When is an object collected?
 > An object is considered "garbage" when it is **unreachable** or **unreferenced**—meaning there are no active references (variables) in the running program that point to that object's memory location. 
-> Check [[julzdao/computer-science/Beware of Variable Scope]] for more info.
+> Check [[Beware of Variable Scope]] for more info.
 
 Java is unique in that the programmer **does not** explicitly destroy objects or free memory (unlike C++). This avoids common memory leaks and dangling pointer errors.
 

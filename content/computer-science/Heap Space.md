@@ -4,7 +4,7 @@ timestamp: 2025-11-25T01:35:00
 type:
   - concept
 cs-foundations:
-  - "[[julzdao/computer-science/Heap Space]]"
+  - "[[Heap Space]]"
 icon: Orbit
 tags:
   - l/java
@@ -25,10 +25,10 @@ elements into stack and heap.
 
 For cleaning up   
 the unused objects,   
-the [[julzdao/computer-science/Garbage Collector|Garbage Collector]] 
+the [[Garbage Collector|Garbage Collector]] 
 is needed.   
 
-It uses the [[julzdao/computer-science/String Pool]]
+It uses the [[String Pool]]
 for optimizing the creation   
 of new Strings and re-using   
 existing ones.   

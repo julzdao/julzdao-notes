@@ -10,7 +10,7 @@ cover:
 lifecycle:
   - seed
 cs-foundations:
-  - "[[julzdao/computer-science/Dont Repeat Yourself - DRY]]"
+  - "[[Dont Repeat Yourself - DRY]]"
 ---
 Each html component's template, 
 is wrapped with a `ng` container. 

@@ -1,8 +1,8 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Compile-Time Constant
 cs-foundations:
-  - "[[julzdao/computer-science/Binary]]"
+  - "[[Binary]]"
 tags:
   - compiler
   - l/java
@@ -15,7 +15,7 @@ lifecycle:
 ---
 A known constant
 does not need to wait until runtime.
-The [[julzdao/computer-science/Java Compiler]] calculates its value,
+The [[Java Compiler]] calculates its value,
 can validate its range
 and apply special rules.
 
@@ -24,7 +24,7 @@ and apply special rules.
 Imagine the **Compiler** as a super-smart cashier 🧠. Checking a pre-calculated bill.  
 
 Normally, if you add two small items.  
-(`byte` + `byte`), the cashier (the [[julzdao/computer-science/JVM]])   
+(`byte` + `byte`), the cashier (the [[JVM]])   
 is instructed to put the result into a larger tray (`int`)   
 to prevent spillage (overflow).   
 So, `byte b3 = b1 + b2;` -> fails because the result is an `int`.  
@@ -39,7 +39,7 @@ the Compiler says, *"Wait, I don't need the JVM for this; I can do the math myse
 
 **If the math works:**   
 The compiler calculates `10 + 50 = 60`.   
-Since 60 fits within the target [[julzdao/computer-science/byte]]'s range (−128 to 127),   
+Since 60 fits within the target [[byte]]'s range (−128 to 127),   
 the compiler simply places the final value (60)   
 directly into the `byte` variable.   
 **No explicit cast is needed.**. 

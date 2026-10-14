@@ -32,7 +32,7 @@ This links engineering with "Craftsmanship": the code must work, but it must als
 > Paul Graham.
 > 
 
-Tools (including [[julzdao/computer-science/Artificial Intelligence]]) can play a part in the process without replacing the programmer’s judgement. The responsibility remains to understand the system, evaluate its decisions and be able to maintain what we ultimately deliver.
+Tools (including [[Artificial Intelligence]]) can play a part in the process without replacing the programmer’s judgement. The responsibility remains to understand the system, evaluate its decisions and be able to maintain what we ultimately deliver.
 
 Creativity does not necessarily lie in typing every character by hand. It lies in **understanding, deciding and building with intention**.
 

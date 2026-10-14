@@ -23,7 +23,7 @@ An IoT system usually forms a simple chain:
 
 **Physical World → Sensor → Device → Network → Cloud → Action**
 
-For example, an agricultural system can measure temperature and humidity using sensors, process the data in an embedded system and send it via [[julzdao/computer-science/MQTT]] to a cloud platform.
+For example, an agricultural system can measure temperature and humidity using sensors, process the data in an embedded system and send it via [[MQTT]] to a cloud platform.
 
 ```text
 Temperature Sensor

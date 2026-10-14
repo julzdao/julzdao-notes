@@ -2,14 +2,14 @@
 up:
 title: Coupling
 cs-foundations:
-  - "[[julzdao/computer-science/Encapsulation]]"
+  - "[[Encapsulation]]"
 tags:
   - cs/clean-code
   - cs/foundations
 type:
   - concept
 description: Degree of interdependence between components
-cover: "[[julzdao/computer-science/assets/coupling.png]]"
+cover: "[[coupling.png]]"
 lifecycle:
   - sapling
 ---
@@ -43,6 +43,6 @@ In the second case, we describe **what behaviour we want**, not who is using the
 > When an API contains properties such as `fromFooter`, `insideSidebar` or `calledFromAdmin`, ask yourself:  
 > **Am I describing behaviour, or am I filtering knowledge of the environment within the component?**
 
-Reducing coupling is usually accompanied by an increase in cohesion. It also ties in directly with the [[julzdao/computer-science/The Law of Demeter|The Law of Demeter]]  or the [[julzdao/computer-science/Separation of Concerns SoC]].
+Reducing coupling is usually accompanied by an increase in cohesion. It also ties in directly with the [[The Law of Demeter|The Law of Demeter]]  or the [[Separation of Concerns SoC]].
 
 ---

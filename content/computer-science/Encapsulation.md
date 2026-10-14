@@ -1,8 +1,8 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Encapsulation
 cs-foundations:
-  - "[[julzdao/computer-science/Coupling]]"
+  - "[[Coupling]]"
 tags:
   - l/java
   - cs/foundations
@@ -14,7 +14,7 @@ lifecycle:
   - sapling
 ---
 Encapsulation is one of the four pillars   
-of [[julzdao/computer-science/Object-Oriented Programming]] (OOP),   
+of [[Object-Oriented Programming]] (OOP),   
 often described as **Data Hiding** + **Bundling**.  
 Expose only certain fields and methods 
 to other classes. Not everything. 

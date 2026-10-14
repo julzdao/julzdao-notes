@@ -1,8 +1,8 @@
 ---
-up: "[[julzdao/computer-science/IoT]]"
+up: "[[IoT]]"
 title: Zigbee
 cs-fundamentals:
-  - "[[julzdao/computer-science/Mesh Network]]"
+  - "[[Mesh Network]]"
 tags:
   - cs/iot
   - cs/network
@@ -15,14 +15,14 @@ lifecycle:
   - sapling
 ---
 Zigbee is a low-power 
-wireless technology used in [[julzdao/computer-science/IoT]], 
+wireless technology used in [[IoT]], 
 particularly for sensors, lighting, automation 
 and devices that need to 
 transmit small amounts of data efficiently.
 
 ---
 
-It is based on IEEE 802.15.4 and can organise devices via a [[julzdao/computer-science/Mesh Network]]. A Zigbee network primarily distinguishes between **coordinators**, **routers** and **end devices**.
+It is based on IEEE 802.15.4 and can organise devices via a [[Mesh Network]]. A Zigbee network primarily distinguishes between **coordinators**, **routers** and **end devices**.
 
 ```text
         Coordinator

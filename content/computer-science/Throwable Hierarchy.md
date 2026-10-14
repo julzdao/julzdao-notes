@@ -1,5 +1,5 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Throwable Hierarchy
 tags:
   - l/java
@@ -19,7 +19,7 @@ and the hierarchy governs `catch` and `throw`.
 
 ---
 
-`Throwable` is the root of what can be thrown using `throw`. Its main branches are `Error` and `Exception`; within `Exception`, `RuntimeException` covers a large proportion of the [[julzdao/computer-science/Checked vs Unchecked Exceptions|unchecked exceptions]].
+`Throwable` is the root of what can be thrown using `throw`. Its main branches are `Error` and `Exception`; within `Exception`, `RuntimeException` covers a large proportion of the [[Checked vs Unchecked Exceptions|unchecked exceptions]].
 
 ```java
 Throwable

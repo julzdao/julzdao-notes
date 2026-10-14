@@ -1,10 +1,10 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: JVM
 tags:
   - l/java
 cs-foundations:
-  - "[[julzdao/computer-science/Binary]]"
+  - "[[Binary]]"
 type:
   - concept
 description: A virtual machine that executes Java bytecode
@@ -23,7 +23,7 @@ It is the core component  of the **Java Runtime Environment (JRE)**.
 
 It takes the platform-independent   
 **bytecode** from the   
-[[julzdao/computer-science/Java Compiler]]
+[[Java Compiler]]
 and translates it   
 into the native machine code.  
 of the specific hardware/OS it is running on.  
@@ -39,12 +39,12 @@ of the specific hardware/OS it is running on.
 > Imagine the **Java Virtual Machine (JVM)** is a universal, self-contained **operating room** 🏥 that exists inside any computer (Windows, Mac, Linux, etc.).
 
 It uses tools such as   
-the [[julzdao/computer-science/Garbage Collector]]
+the [[Garbage Collector]]
 for cleaning up objects that   
 are no longer needed.   
 
 In relation with  
-[[julzdao/computer-science/Java Compiler]],  
+[[Java Compiler]],  
 the JVM may raise an exception   
 while executing the code.   
 Producing an unchecked   

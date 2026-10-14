@@ -3,7 +3,7 @@ up:
 type:
   - reference
 cs-fundamentals:
-  - "[[julzdao/computer-science/KISS Principle]]"
+  - "[[KISS Principle]]"
 tags:
   - writing
 description: Open Source tool for correcting Grammar

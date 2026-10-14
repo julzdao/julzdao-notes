@@ -1,8 +1,8 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Abstract Method
 cs-foundations:
-  - "[[julzdao/computer-science/Polymorphism]]"
+  - "[[Polymorphism]]"
 tags:
   - l/java
   - java/interface
@@ -23,10 +23,10 @@ should implement it though.
 
 An `abstract` method has no body. A **class** containing one must be `abstract`; a concrete class that inherits that method must implement it.
 
-This method follows the [[julzdao/computer-science/Polymorphism]] way of doing things. Multiple concrete sub-classes from the `abstract` class implementing an `abstract` method, may contain different implementations. 
+This method follows the [[Polymorphism]] way of doing things. Multiple concrete sub-classes from the `abstract` class implementing an `abstract` method, may contain different implementations. 
 
 > [!important] Important
-> abstract methods **are not exclusive to abstract classes**; [[julzdao/computer-science/Java Interface|interfaces]] can also declare abstract methods.
+> abstract methods **are not exclusive to abstract classes**; [[Java Interface|interfaces]] can also declare abstract methods.
 
 ```java
 abstract class Animal {

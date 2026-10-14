@@ -1,8 +1,8 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Java
 cs-fundamentals:
-  - "[[julzdao/computer-science/Object-Oriented Programming]]"
+  - "[[Object-Oriented Programming]]"
 tags:
   - l/java
   - cs/language
@@ -15,14 +15,14 @@ lifecycle:
 ---
 **Java** is a general-purpose, 
 strongly typed, object-oriented language. 
-The [[julzdao/computer-science/Java Compiler]] transforms 
+The [[Java Compiler]] transforms 
 the source code into bytecode, 
-which is then executed by the [[julzdao/computer-science/JVM]].
+which is then executed by the [[JVM]].
 
 ---
 
-It is the language representing the [[julzdao/computer-science/Object-Oriented Programming]] foundation. 
+It is the language representing the [[Object-Oriented Programming]] foundation. 
 
-Its ecosystem combines the language, the virtual machine and an extensive [[julzdao/computer-science/API]].
+Its ecosystem combines the language, the virtual machine and an extensive [[API]].
 
 ---

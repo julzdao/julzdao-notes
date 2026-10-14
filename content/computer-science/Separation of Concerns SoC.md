@@ -14,7 +14,7 @@ lifecycle:
 aliases:
   - SoC
 cs-foundations:
-  - "[[julzdao/computer-science/Single Responsibility Principle]]"
+  - "[[Single Responsibility Principle]]"
 ---
 Separation of Concerns (SoC) 
 is a design principle that 
@@ -24,8 +24,8 @@ with a different **concern**.
 
 ---
 
-This separation reduces [[julzdao/computer-science/Coupling]] between components and promotes cohesion within each one. If the boundaries are well designed, we can modify one part of the system without needing to continually understand or alter the others.
+This separation reduces [[Coupling]] between components and promotes cohesion within each one. If the boundaries are well designed, we can modify one part of the system without needing to continually understand or alter the others.
 
-SoC is closely related to [[julzdao/computer-science/Single Responsibility Principle]], but they are not exactly the same. **SRP focuses on a unit’s responsibility and the reasons for changing it; SoC is a broader concept concerning how to separate different aspects of a system.** 
+SoC is closely related to [[Single Responsibility Principle]], but they are not exactly the same. **SRP focuses on a unit’s responsibility and the reasons for changing it; SoC is a broader concept concerning how to separate different aspects of a system.** 
 
 ---

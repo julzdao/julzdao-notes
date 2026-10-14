@@ -1,5 +1,5 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Exception Propagation
 tags:
   - l/java
@@ -24,7 +24,7 @@ It can use the `throws` clause to delegate the responsibility up the method call
 
 It **propagates** to its caller along the call stack. The process continues until a compatible `catch` is found or the thread reaches its end.
 
-This principle is tied up with the [[julzdao/computer-science/Single Responsibility Principle]] in computer science.   
+This principle is tied up with the [[Single Responsibility Principle]] in computer science.   
 
 ### 🦕 Sources 
 

@@ -1,5 +1,5 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: StringBuilder
 tags:
   - l/java
@@ -11,10 +11,10 @@ lifecycle:
   - sapling
 cs-foundations:
 ---
-String Builder is a [[julzdao/computer-science/Java]] feature 
+String Builder is a [[Java]] feature 
 to build a mutable sequence 
 of characters in a more efficient way 
-along a set of other useful [[julzdao/computer-science/API]] methods 
+along a set of other useful [[API]] methods 
 such as `append()`, `insert()` or `reverse()`. 
 
 ---
@@ -40,11 +40,11 @@ for (String word : words) {
 String result = sb.toString();
 ```
 
-`StringBuilder` helps [[julzdao/computer-science/Java]] to do a tremendous less amount of work in the long run for String operations.
+`StringBuilder` helps [[Java]] to do a tremendous less amount of work in the long run for String operations.
 
 > [!tip] When it matters
 > Use `StringBuilder` when there is a loop going on, or an operation with strings takes multiple steps. 
-> If only one line of concatenation like `a + b + c` , the [[julzdao/computer-science/Java Compiler]] already handles and optimises for this. No need for the Builder.
+> If only one line of concatenation like `a + b + c` , the [[Java Compiler]] already handles and optimises for this. No need for the Builder.
 
 ## Reversing a String
 

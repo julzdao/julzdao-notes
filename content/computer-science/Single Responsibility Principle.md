@@ -2,8 +2,8 @@
 up:
 title: Single Responsibility Principle
 cs-fundamentals:
-  - "[[julzdao/computer-science/Coupling]]"
-  - "[[julzdao/computer-science/Separation of Concerns SoC|Separation of Concerns SoC]]"
+  - "[[Coupling]]"
+  - "[[Separation of Concerns SoC|Separation of Concerns SoC]]"
 tags:
   - cs/clean-code
   - cs/design-pattern
@@ -43,12 +43,12 @@ class InvoicePdfGenerator {
 }
 ```
 
-SRP promotes high cohesion: elements belonging to the same responsibility remain together. At the same time, it helps to reduce [[julzdao/computer-science/Coupling]], because different responsibilities are no longer intertwined within the same module.
+SRP promotes high cohesion: elements belonging to the same responsibility remain together. At the same time, it helps to reduce [[Coupling]], because different responsibilities are no longer intertwined within the same module.
 
-There is a direct link to [[julzdao/computer-science/Separation of Concerns SoC]]. SoC applies the separation of concerns broadly across a system; SRP helps us decide **which responsibilities should remain together within their modules**.
+There is a direct link to [[Separation of Concerns SoC]]. SoC applies the separation of concerns broadly across a system; SRP helps us decide **which responsibilities should remain together within their modules**.
 
 > [!warning]  
-> SRP does not mean that a class must have only one method or ‘do one thing’. A responsibility may require multiple operations. What is important is that those operations belong to the same reason for change. Keeping the [[julzdao/computer-science/Open Closed Principle]] in line.
+> SRP does not mean that a class must have only one method or ‘do one thing’. A responsibility may require multiple operations. What is important is that those operations belong to the same reason for change. Keeping the [[Open Closed Principle]] in line.
 
 Applying SRP is also not about aggressively splitting the code until you end up with dozens of tiny classes. The correct boundary emerges when we can identify **responsibilities that evolve for different reasons**.
 

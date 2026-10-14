@@ -4,7 +4,7 @@ title: Jira Communication
 aliases:
   - Always Comment on Jiras
 cs-foundations:
-  - "[[julzdao/computer-science/Dont Repeat Yourself - DRY]]"
+  - "[[Dont Repeat Yourself - DRY]]"
 tags:
   - project-management
   - team-work

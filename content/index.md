@@ -26,10 +26,10 @@ This is not a traditional blog. It is a growing collection of [[Linking your thi
 
 ## Selected notes 
 
-- 🌱 [[julzdao/agriculture/Controlled Environment Agriculture]]
-- 🤖 [[julzdao/computer-science/Each Program as a Symphony]] 
-- 🚀 [[julzdao/logs/Week 38 - Discovering LoRa]] 
+- 🌱 [[Controlled Environment Agriculture]]
+- 🤖 [[Each Program as a Symphony]] 
+- 🚀 [[Week 38 - Discovering LoRa]] 
 
 ## Attribution 
 
-- Almost every illustration working as a cover image for the notes is made by myself using Figma along this [[julzdao/computer-science/Free Vector Shapes]] Library from MaxiBlocks. 
+- Almost every illustration working as a cover image for the notes is made by myself using Figma along this [[Free Vector Shapes]] Library from MaxiBlocks. 

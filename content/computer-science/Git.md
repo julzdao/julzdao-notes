@@ -30,7 +30,7 @@ Working Directory → Staging Area → Commit → Repository
 > [!tip]
 > Git is not just a tool for uploading code. Its main function is to **model and navigate a project’s change history**.
 
-This is where [[julzdao/computer-science/Git Workflow]], [[julzdao/computer-science/Git Remote]], Git Stash and the various Git branching strategies come into play.
+This is where [[Git Workflow]], [[Git Remote]], Git Stash and the various Git branching strategies come into play.
 
 ---
 

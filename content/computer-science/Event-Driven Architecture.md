@@ -3,8 +3,8 @@ up:
 type:
   - technique
 cs-foundations:
-  - "[[julzdao/computer-science/Coupling]]"
-  - "[[julzdao/computer-science/The Law of Demeter]]"
+  - "[[Coupling]]"
+  - "[[The Law of Demeter]]"
 tags:
   - cs/foundations
   - cs/iot
@@ -22,7 +22,7 @@ information and data between components.
 
 ---
 
-The main point behind choosing to apply an [[julzdao/computer-science/Event-Driven Architecture]] to a system resides in how the components remain loosely [[julzdao/computer-science/Coupling]], knowing less things about each other with [[julzdao/computer-science/The Law of Demeter]], and using design patterns such as the [[julzdao/computer-science/Observer Pattern]] to connect things. 
+The main point behind choosing to apply an [[Event-Driven Architecture]] to a system resides in how the components remain loosely [[Coupling]], knowing less things about each other with [[The Law of Demeter]], and using design patterns such as the [[Observer Pattern]] to connect things. 
 
 ## Sources 
 

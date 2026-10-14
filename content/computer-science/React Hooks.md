@@ -6,7 +6,7 @@ cs-foundations:
 tags:
   - react
 description: Hook into the current state.
-cover: "[[julzdao/computer-science/assets/HOOKS.svg]]"
+cover: "[[HOOKS.svg]]"
 lifecycle:
   - seed
 ---
@@ -28,4 +28,4 @@ Instead of the deeply-connected "Angular" features such as Signals, where a valu
 4. Children from those updated components re-render as well. 
 
 > [!warning] Not Singletons
-> Differing from the [[julzdao/computer-science/Observer Pattern]], hooks are like instances, not Singletons. They can hold arguments like other any function, that means that each parent component gets a copy of that hook. 
+> Differing from the [[Observer Pattern]], hooks are like instances, not Singletons. They can hold arguments like other any function, that means that each parent component gets a copy of that hook. 

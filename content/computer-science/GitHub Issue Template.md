@@ -39,7 +39,7 @@ lifecycle:
 - **Visual / diagram:**
 
 > [!tip]
-> Separate symptoms from causes. Use [[julzdao/computer-science/Root Cause Analysis]] when the failure mechanism is not immediately clear.
+> Separate symptoms from causes. Use [[Root Cause Analysis]] when the failure mechanism is not immediately clear.
 
 ## 4. Candidate Approaches
 

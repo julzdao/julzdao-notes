@@ -1,8 +1,8 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Java Bit Manipulation
 cs-foundations:
-  - "[[julzdao/computer-science/Binary]]"
+  - "[[Binary]]"
 tags:
   - l/java
   - cs/binary
@@ -21,7 +21,7 @@ without losing the integer value.
 
 ---
 
-[[julzdao/computer-science/Java]] allows you to operate directly on bits using `&`, `|`, `^`, `~`, `<<`, `>>` and `>>>`. **Bit masks** are useful for representing compact flags, protocols and hardware registers, particularly in [[julzdao/computer-science/IoT]] and embedded systems.
+[[Java]] allows you to operate directly on bits using `&`, `|`, `^`, `~`, `<<`, `>>` and `>>>`. **Bit masks** are useful for representing compact flags, protocols and hardware registers, particularly in [[IoT]] and embedded systems.
 
 ```java
 int READ = 1 << 0;

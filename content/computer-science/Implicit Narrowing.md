@@ -1,8 +1,8 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Implicit Narrowing
 cs-fundamentals:
-  - "[[julzdao/computer-science/Compile-Time Constant]]"
+  - "[[Compile-Time Constant]]"
 tags:
   - l/java
   - cs/data-types
@@ -21,7 +21,7 @@ and allows direct assignment.
 
 ---
 
-Java allows a useful exception to narrowing: a [[julzdao/computer-science/Compile-Time Constant]] of type `int` can be assigned directly to `byte`, `short` or `char` if its value fits in the destination.
+Java allows a useful exception to narrowing: a [[Compile-Time Constant]] of type `int` can be assigned directly to `byte`, `short` or `char` if its value fits in the destination.
 
 With normal variables, narrowing requires a cast.
 

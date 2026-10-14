@@ -1,8 +1,8 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Dynamic Dispatch
 cs-foundations:
-  - "[[julzdao/computer-science/Polymorphism]]"
+  - "[[Polymorphism]]"
 tags:
   - l/java
 type:
@@ -20,12 +20,12 @@ instead of compile time.
 
 ---
 
-The [[julzdao/computer-science/Java Compiler]] asks for the method at hand.   
+The [[Java Compiler]] asks for the method at hand.   
 It does only care, if the method is there.   
 
-From the created object, the [[julzdao/computer-science/JVM]] Runtime is the one reading the actual code and inspect, hence what to do in the end.   
+From the created object, the [[JVM]] Runtime is the one reading the actual code and inspect, hence what to do in the end.   
 
-This is [[julzdao/computer-science/Polymorphism]] at its peak, using references and objects, for dancing with bits.   
+This is [[Polymorphism]] at its peak, using references and objects, for dancing with bits.   
 
 ---
 

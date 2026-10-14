@@ -1,5 +1,5 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: String Pool
 cs-fundamentals:
   - "[[Object Identity]]"
@@ -19,13 +19,13 @@ is the Java String.
 
 ---
 
-That's why the [[julzdao/computer-science/JVM]] has created a special  galaxy in its universe called String Pool for storing Strings.   
+That's why the [[JVM]] has created a special  galaxy in its universe called String Pool for storing Strings.   
 
-The String Pool lives also inside the [[julzdao/computer-science/Heap Space]].
+The String Pool lives also inside the [[Heap Space]].
  
 The reason for this  is basically for optimising  as much as possible the creation of Java String since every string object is immutable. 
 
-For searching a match, the [[julzdao/computer-science/Java Compiler|Java Compiler]]  is the one checking the literals and [[xhidden/100-computer-science/101-knowledge/java/Compiler Time Constants]] . 
+For searching a match, the [[Java Compiler|Java Compiler]]  is the one checking the literals and [[xhidden/100-computer-science/101-knowledge/java/Compiler Time Constants]] . 
 
 
 > [!hint] The new keyword 
@@ -45,8 +45,8 @@ Since one of the
 benefits of Java is  
 causing less memory leaks,  
 the String Pool is stored in  
-the [[julzdao/computer-science/Heap Space]], where the  
-[[julzdao/computer-science/Garbage Collector]] may  
+the [[Heap Space]], where the  
+[[Garbage Collector]] may  
 remove unreferenced Strings. 
 
 ### Resources

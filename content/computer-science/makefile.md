@@ -3,7 +3,7 @@ up:
 type:
   - concept
 cs-foundations:
-  - "[[julzdao/computer-science/Single Point of Truth|Single Point of Truth]]"
+  - "[[Single Point of Truth|Single Point of Truth]]"
 tags:
   - cs/build
   - cs/automation
@@ -19,7 +19,7 @@ more efficiently.
 
 ---
 
-The `makefile` commonly acts as the entry file or [[julzdao/computer-science/Single Point of Truth]] when compiling multiple sub-projects from within a [[julzdao/computer-science/Monorepo]]. 
+The `makefile` commonly acts as the entry file or [[Single Point of Truth]] when compiling multiple sub-projects from within a [[Monorepo]]. 
 
 We can think of it as a program which automates the building of your project. 
 This is the syntax: 

@@ -12,14 +12,14 @@ tags:
 type:
   - concept
 cs-foundations:
-  - "[[julzdao/computer-science/Heap Space]]"
-  - "[[julzdao/computer-science/Binary]]"
+  - "[[Heap Space]]"
+  - "[[Binary]]"
 ---
 A resource-constrained system is
 a device with **limited computing power, 
 memory, energy, or storage**.
 Designing reliable software under these constraints 
-is one of the main challenges of [[julzdao/computer-science/IoT]] engineering.
+is one of the main challenges of [[IoT]] engineering.
 
 ---
 # Strict Limits
@@ -30,14 +30,14 @@ These systems run on low resources, so they are more available, sustainable and 
 
 Examples include Raspberry Pi, ESP32 and many agricultural sensors.
 
-In [[julzdao/agriculture/Precision Agriculture]], one of the main goals is to reduce the use of resources such as water, light or energy (see [[julzdao/agriculture/Resource Efficiency]]. With **Resource-Constrained Systems**, we try to accomplish the same goal but on the technological layer. 
+In [[Precision Agriculture]], one of the main goals is to reduce the use of resources such as water, light or energy (see [[Resource Efficiency]]. With **Resource-Constrained Systems**, we try to accomplish the same goal but on the technological layer. 
 
 > [!warning] Security Challenges
 > Resource-constrained IoT devices face particular security challenges that originate from fundamental hardware limitations, trust management complexities, and systemic architectural vulnerabilities [[#(1)]]. 
 
 Since **Resource-Constrained IoT Devices** need to take in mind the computational overhead, light-weight algorithms, criptography and systems need to be implemented from early development [[#(1)]].
 
-Although deploying these kind of systems inside a [[julzdao/agriculture/Controlled Environment Agriculture]], may have real positive impacts, the [[julzdao/computer-science/Cybersecurity in CEA]] needs to be much more robust in these cases. 
+Although deploying these kind of systems inside a [[Controlled Environment Agriculture]], may have real positive impacts, the [[Cybersecurity in CEA]] needs to be much more robust in these cases. 
 
 > This resource-conscious approach ensures that these devices can fulfill their roles effectively without becoming a burden on resources or energy consumption. [[#(2)]]
 

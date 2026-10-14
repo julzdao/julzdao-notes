@@ -8,7 +8,7 @@ tags:
   - ag/systems
   - ag/CEA
   - ag/hydroponics
-cover: "[[julzdao/agriculture/assets/controlled.png]]"
+cover: "[[controlled.png]]"
 hasFundamental: true
 type:
   - fundamental
@@ -34,9 +34,9 @@ Inside this micro-universe, we really do not care about outside conditions, whet
 
 ## The Goal of CEA 
 
-The goal of CEA is to **build stronger protection** from the outdoor environment while providing the **optimal conditions** of the crops using [[julzdao/agriculture/Precision Agriculture]] or other innovations. 
+The goal of CEA is to **build stronger protection** from the outdoor environment while providing the **optimal conditions** of the crops using [[Precision Agriculture]] or other innovations. 
 
-Achieving **long-term** [[julzdao/agriculture/Food Security]] and environmental sustainability by reducing resources being used while also making the most out of the land. 
+Achieving **long-term** [[Food Security]] and environmental sustainability by reducing resources being used while also making the most out of the land. 
 
 As many scientists are pointing toward Risks to Life on Land from Global Warning, where changes in temperature, precipitation, and seasonal timing will alter the geographic ranges of many types of plants and animals[^2] .
 

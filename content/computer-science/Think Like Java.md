@@ -1,5 +1,5 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Think Like Java
 tags:
   - l/java
@@ -11,9 +11,9 @@ cover:
 lifecycle:
   - sapling
 ---
-Think like [[julzdao/computer-science/Java]]. 
+Think like [[Java]]. 
 Imagine you are 
-the [[julzdao/computer-science/Java Compiler]]. 
+the [[Java Compiler]]. 
 Writing having this in mind, 
 for optimal cohesion with the language.
 

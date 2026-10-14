@@ -1,5 +1,5 @@
 ---
-up: "[[julzdao/computer-science/IoT]]"
+up: "[[IoT]]"
 title: MQTT
 aliases:
   - Message Queuing Telemetry Transport
@@ -16,8 +16,8 @@ lifecycle:
 ---
 **MQTT** is a lightweight 
 messaging protocol based on 
-the ‘Publish/Subscribe’ model (similar to the [[julzdao/computer-science/Observer Pattern]]), 
-widely used in [[julzdao/computer-science/IoT]] to connect devices, gateways and services, 
+the ‘Publish/Subscribe’ model (similar to the [[Observer Pattern]]), 
+widely used in [[IoT]] to connect devices, gateways and services, 
 even over networks with limited resources.
 
 ---

@@ -1,8 +1,8 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Java Compiler
 cs-foundations:
-  - "[[julzdao/computer-science/Binary]]"
+  - "[[Binary]]"
 tags:
   - l/java
 type:
@@ -28,7 +28,7 @@ file consisting of machine-readable
 If the translation is successful, you hand over the **bytecode** blueprint.   
 
 This blueprint isn't for any one specific machine;  it's written in a special intermediate language   
-that **any** machine with the right "interpreter" (the **Java Virtual Machine, or [[julzdao/computer-science/JVM]])  can understand and execute.   
+that **any** machine with the right "interpreter" (the **Java Virtual Machine, or [[JVM]])  can understand and execute.   
 
 This is what makes Java "**Write Once, Run Anywhere**."  
 
@@ -40,10 +40,10 @@ javac MyProgram.java
 ## Relevant Concepts 
 
 - [Garbage Collector](xhidden/100-computer-science/101-knowledge/java/Garbage%20Collector.md) :: Imagine the Garbage Collector as a destructor of unused Worlds (objects). No longer needed and where any life is created.
-- [[julzdao/computer-science/Heap Space]] :: The dark matter of Java. Where new objects are stored.
-- [[julzdao/computer-science/String Pool]]:: Space in the JVM Universe for storing Strings. 
+- [[Heap Space]] :: The dark matter of Java. Where new objects are stored.
+- [[String Pool]]:: Space in the JVM Universe for storing Strings. 
 - [[Compiler Time Constants]] :: The compiler is like a cashier who, when she sees a compile-time constant, gets excited and instead of using the machine (runtime), does the calculations herself right there and then.
-- [[julzdao/computer-science/Dynamic Dispatch]]:: The interface is like a contract. The compiler looks at the contract and sees if that clause exists. If it does, it lets the worker carry it out.
+- [[Dynamic Dispatch]]:: The interface is like a contract. The compiler looks at the contract and sees if that clause exists. If it does, it lets the worker carry it out.
 
 ## Resources
 

@@ -6,7 +6,7 @@ cs-foundations:
 tags:
   - cs/ai
 description: What everyone is talking about.
-cover: "[[julzdao/computer-science/assets/ai.png]]"
+cover: "[[ai.png]]"
 lifecycle:
   - seed
 aliases:

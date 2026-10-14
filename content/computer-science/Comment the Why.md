@@ -2,7 +2,7 @@
 up:
 type:
 cs-foundations:
-  - "[[julzdao/computer-science/KISS Principle|Keep It Simple, Stupid]]"
+  - "[[KISS Principle|Keep It Simple, Stupid]]"
 tags:
 description: Mnemonic
 cover:

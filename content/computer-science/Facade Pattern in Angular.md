@@ -3,7 +3,7 @@ up: "[[vault/0000-focus/02-farm-orchestra/angular-migration/Angular Concepts|Ang
 type:
   - principle
 cs-fundamentals:
-  - "[[julzdao/computer-science/The Law of Demeter|The Law of Demeter]]"
+  - "[[The Law of Demeter|The Law of Demeter]]"
 tags:
   - cs/design-pattern
   - fr/angular
@@ -35,4 +35,4 @@ export class V42GardenFacadeService {
 }
 ```
 
-This follows exactly [[julzdao/computer-science/The Law of Demeter|The Law of Demeter]] where components do not need to know the whole system's architecture. Only one counter to order from. The Facade. 
+This follows exactly [[The Law of Demeter|The Law of Demeter]] where components do not need to know the whole system's architecture. Only one counter to order from. The Facade. 

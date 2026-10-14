@@ -1,8 +1,8 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Java Static
 cs-foundations:
-  - "[[julzdao/computer-science/Heap Space]]"
+  - "[[Heap Space]]"
 tags:
   - l/java
   - cs/memory

@@ -17,9 +17,9 @@ or sensitive data, or to carry out a cyberattack [[#(1)]].
 
 ---
 
-It is the main factor to take in mind when talking about [[julzdao/computer-science/Cybersecurity in CEA]]. 
+It is the main factor to take in mind when talking about [[Cybersecurity in CEA]]. 
 
-Since [[julzdao/agriculture/Precision Agriculture]] is mostly filled with digital assets, the new ecosystem provides a huge set of opportunities for Hackers to deliver a wide range of possible attacks. 
+Since [[Precision Agriculture]] is mostly filled with digital assets, the new ecosystem provides a huge set of opportunities for Hackers to deliver a wide range of possible attacks. 
 
 ---
 ## Possible sub-surfaces

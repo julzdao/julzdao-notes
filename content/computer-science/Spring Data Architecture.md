@@ -14,7 +14,7 @@ lifecycle:
 Database is the memory. 
 Repositories are the links.
 Entities are the prototypes. 
-Service is the [[julzdao/computer-science/java/ideas/API|API]].
+Service is the [[API|API]].
 This is the standard. 
 
 --- 

@@ -1,11 +1,11 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: char
 tags:
   - l/java
   - cs/data-types
 cs-foundations:
-  - "[[julzdao/computer-science/Binary]]"
+  - "[[Binary]]"
 type:
   - concept
 description: A 16-bit Java primitive representing a UTF-16 code unit

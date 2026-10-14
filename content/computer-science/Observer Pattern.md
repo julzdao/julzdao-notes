@@ -6,8 +6,8 @@ tags:
   - cs/design-pattern
   - cs/iot
 cs-foundations:
-  - "[[julzdao/computer-science/Coupling]]"
-  - "[[julzdao/computer-science/Open Closed Principle]]"
+  - "[[Coupling]]"
+  - "[[Open Closed Principle]]"
 type:
   - principle
 description: Automatically notify multiple objects when a status changes
@@ -23,7 +23,7 @@ When an event occurs, the Subject notifies them.
 
 ---
 
-This reduces the [[julzdao/computer-science/Coupling]] between the entity that **triggers an event** and those that **react to it**, making it particularly useful in [[julzdao/computer-science/Event-Driven Architecture]], graphical user interfaces and [[julzdao/computer-science/IoT]].
+This reduces the [[Coupling]] between the entity that **triggers an event** and those that **react to it**, making it particularly useful in [[Event-Driven Architecture]], graphical user interfaces and [[IoT]].
 
 In a MicroEJ application, for example, we might have a temperature sensor. The application should not need to constantly query the sensor, nor should the sensor have direct knowledge of the UI, the alarm system or MQTT.
 
@@ -67,7 +67,7 @@ The sensor knows that a `TemperatureObserver` exists, but **it does not need to 
 > 
 > In MicroEJ, it is common to find APIs based on **listeners and callbacks**, which apply this same idea: register interest now and react when the event occurs.
 
-The Observer pattern is directly linked to the [[julzdao/computer-science/Open Closed Principle]]. The producer depends on an abstraction, and we can add new consumers without modifying it.
+The Observer pattern is directly linked to the [[Open Closed Principle]]. The producer depends on an abstraction, and we can add new consumers without modifying it.
 
 ---
 

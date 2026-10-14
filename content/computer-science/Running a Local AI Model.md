@@ -3,7 +3,7 @@ up:
 type:
   - reference
 cs-foundations:
-  - "[[julzdao/computer-science/Encapsulation]]"
+  - "[[Encapsulation]]"
 tags:
   - cs/ai
 description: Reasons to run a local AI model instead of cloud based options.
@@ -17,7 +17,7 @@ Offline.
 
 ---
 
-The main reason for running a local AI model is privacy. Making sure that your data stays private and [[julzdao/computer-science/Encapsulation|encapsulated]] in your local system.  
+The main reason for running a local AI model is privacy. Making sure that your data stays private and [[Encapsulation|encapsulated]] in your local system.  
 
 Each prompt and token for processing an AI task costs money. If you run the model locally, no need to pay for subscription or anything else. 
 

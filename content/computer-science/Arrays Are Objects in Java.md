@@ -1,19 +1,19 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Arrays Are Objects in Java
 cs-foundations:
-  - "[[julzdao/computer-science/Object-Oriented Programming]]"
+  - "[[Object-Oriented Programming]]"
 tags:
   - l/java
   - java/array
 type:
   - concept
 description: Understand that every array instance is a Java object
-cover: "[[julzdao/computer-science/assets/arrays-are-objects.png]]"
+cover: "[[arrays-are-objects.png]]"
 lifecycle:
   - sapling
 ---
-In [[julzdao/computer-science/Java]], **every array is an object**, 
+In [[Java]], **every array is an object**, 
 even `int[]`. 
 It can be assigned to an `Object` reference, 
 has its own identity, 
@@ -21,7 +21,7 @@ and inherits the methods available from `Object`.
 
 ---
 
-Since [[julzdao/computer-science/Java]] is an [[julzdao/computer-science/Object-Oriented Programming]] language, pretty much everything is an `Object`. 
+Since [[Java]] is an [[Object-Oriented Programming]] language, pretty much everything is an `Object`. 
 Two arrays with the same contents are still distinct objects.
 
 ```java

@@ -1,6 +1,6 @@
 ---
 up:
-related: "[[julzdao/agriculture/Hydroponics]]"
+related: "[[Hydroponics]]"
 title: Microgreens
 description: Exploring microgreens through Senku's scientific lens — high nutrient density, rapid growth, and minimal resource usage.
 tags:
@@ -14,7 +14,7 @@ icon: File
 hasFundamental: true
 lifecycle:
   - seed
-cover: "[[julzdao/agriculture/assets/microgreens.png]]"
+cover: "[[microgreens.png]]"
 ---
 Microgreens are the young seedlings 
 of edible vegetables and herbs, 

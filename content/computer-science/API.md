@@ -1,15 +1,15 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: API
 cs-foundations:
-  - "[[julzdao/computer-science/Coupling]]"
+  - "[[Coupling]]"
 tags:
   - cs/api
   - l/java
 type:
   - concept
 description: A contract whereby one piece of software exposes capabilities to another
-cover: "[[julzdao/computer-science/assets/api.png]]"
+cover: "[[api.png]]"
 lifecycle:
   - sapling
 ---
@@ -22,9 +22,9 @@ of how a program works.
 
 ---
 
-An **Application Programming Interface (API)** defines how other code can interact with a system, library or component. In [[julzdao/computer-science/Java]], classes, interfaces and public methods form part of the APIs we use.
+An **Application Programming Interface (API)** defines how other code can interact with a system, library or component. In [[Java]], classes, interfaces and public methods form part of the APIs we use.
 
-A good API reduces [[julzdao/computer-science/Coupling]] by separating the contract from its implementation.
+A good API reduces [[Coupling]] by separating the contract from its implementation.
 
 > [!abstract] Meaning
 > Application Programming Interface

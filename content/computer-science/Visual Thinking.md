@@ -9,7 +9,7 @@ tags:
 type:
   - technique
 description: To visualise a problem in order to understand its relationships and structure
-cover: "[[julzdao/computer-science/assets/VISUAL-THINKING-3.png]]"
+cover: "[[VISUAL-THINKING-3.png]]"
 lifecycle:
   - sapling
 ---
@@ -32,7 +32,7 @@ A diagram can show structure and flow; a visual metaphor can help build mental m
 > [!tip]
 > If you’ve been trying to explain a problem in words for too long, try drawing it. You don’t need a nice drawing: you need the relationships to be visible.
 
-The sketch can also become a tool for [[julzdao/computer-science/Communication]] to help the team share a common understanding of the problem.
+The sketch can also become a tool for [[Communication]] to help the team share a common understanding of the problem.
 
 ---
 

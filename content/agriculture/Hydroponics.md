@@ -7,7 +7,7 @@ title: Hydroponics
 number: 4
 icon: Sprout
 description: Growing food through water
-cover: "[[julzdao/agriculture/assets/hydro 1.png]]"
+cover: "[[hydro 1.png]]"
 type:
   - moc
 hasFundamental: true

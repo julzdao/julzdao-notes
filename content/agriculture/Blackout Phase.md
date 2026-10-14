@@ -1,5 +1,5 @@
 ---
-up: "[[julzdao/agriculture/Microgreens]]"
+up: "[[Microgreens]]"
 title: Blackout Phase
 number: 7
 timestamp: 2025-11-26T21:49:00
@@ -7,7 +7,7 @@ system: Microgreens Supernova
 tags:
   - ag/microgreens
 icon: Bean
-cover: "[[julzdao/agriculture/assets/blackout-4.png]]"
+cover: "[[blackout-4.png]]"
 hasFundamental: true
 type:
   - concept
@@ -34,7 +34,7 @@ Before going back to growing some more seeds, let's break down one of the cooles
 
 In total darkness, microgreens seeds do not produce **clorophylle** (the green pigment). 
 
-![[julzdao/agriculture/assets/hydro 2.png]]
+![[hydro 2.png]]
 
 But in this state, they are freaking out. 
 Subsequently, they start the process of **etiolation**.

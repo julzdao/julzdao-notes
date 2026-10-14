@@ -11,7 +11,7 @@ tags:
 ---
 ## Little academic attention
 
-[[julzdao/agriculture/Controlled Environment Agriculture]] depend greatly of IoT systems for using [[julzdao/agriculture/Precision Agriculture]] to understand, manage, monitor and react to plant growth. 
+[[Controlled Environment Agriculture]] depend greatly of IoT systems for using [[Precision Agriculture]] to understand, manage, monitor and react to plant growth. 
 
 As described in this research paper from Vakhnovskyi, A. [[#(1)]] , Modern CEA platforms integrate these three distinct technologies: 
 
@@ -19,7 +19,7 @@ As described in this research paper from Vakhnovskyi, A. [[#(1)]] , Modern CEA p
 2. **Edge Computing layer**: Hosting real-time control logic from hardware gadgets such as Raspberry Pi or other microcontrollers. 
 3. **Cloud layer**: Providing crop management, cross-facility transfer and persisting all necessary information about the whole system and authentication. 
 
-This three layer architecture provides a huge [[julzdao/computer-science/Attack Surface]] that spans over the whole Information Technology domain. 
+This three layer architecture provides a huge [[Attack Surface]] that spans over the whole Information Technology domain. 
 
 > Despite the critical role of CEA in food security, the cybersecurity of these systems has received remarkably little academic attention.
    Vakhnovskyi, A. [[#(1)]] 
@@ -29,7 +29,7 @@ Another report states that ransomware in Agriculture is easier because of the le
 > [!warning] Rising Threats to Agriculture sector
 > Ransomware attacks on the food and agriculture sector reached 265 incidents in 2025, more than doubling from 2023 [[#(2)]]
 
-These findings seem to provide a clear idea on why investing in Cybersecurity for Agriculture plays a critical role on strengthening [[julzdao/agriculture/Food Security]] within the new era of farming. 
+These findings seem to provide a clear idea on why investing in Cybersecurity for Agriculture plays a critical role on strengthening [[Food Security]] within the new era of farming. 
 
 ---
 ## References 

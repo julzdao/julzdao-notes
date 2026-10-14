@@ -1,5 +1,5 @@
 ---
-up: "[[julzdao/computer-science/Git]]"
+up: "[[Git]]"
 title: Git Stash to Another Branch
 tags:
   - cs/git

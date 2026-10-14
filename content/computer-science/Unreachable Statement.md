@@ -1,5 +1,5 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Unreachable Statement
 tags:
   - l/java
@@ -13,9 +13,9 @@ lifecycle:
 ---
 If a path is never reached,
 its code cannot be executed.
-When [[julzdao/computer-science/Java]] can prove this,
-the [[julzdao/computer-science/Java Compiler|Compiler]] rejects it
-before generating [[julzdao/computer-science/byte]]code.
+When [[Java]] can prove this,
+the [[Java Compiler|Compiler]] rejects it
+before generating [[byte]]code.
 
 ---
 

@@ -13,7 +13,7 @@ cover:
 lifecycle:
   - sapling
 cs-foundations:
-  - "[[julzdao/computer-science/Single Responsibility Principle]]"
+  - "[[Single Responsibility Principle]]"
 ---
 Pull Requests should limit 
 to 200 lines of code changed 
@@ -28,7 +28,7 @@ a single coherent change.
 > [!tip]
 > If a PR requires a lengthy explanation to justify why it contains several different changes, it can probably be split up.
 
-A small PR ties in naturally with [[julzdao/computer-science/Single Responsibility Principle]]: the change should have a clear purpose. It also promotes "Continuous Integration" by integrating small changes more frequently.
+A small PR ties in naturally with [[Single Responsibility Principle]]: the change should have a clear purpose. It also promotes "Continuous Integration" by integrating small changes more frequently.
 
 ---
 

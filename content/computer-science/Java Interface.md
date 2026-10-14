@@ -1,9 +1,9 @@
 ---
-up: "[[julzdao/computer-science/Java]]"
+up: "[[Java]]"
 title: Java Interface
 cs-foundations:
-  - "[[julzdao/computer-science/Single Point of Truth|Single Point of Truth]]"
-  - "[[julzdao/computer-science/Polymorphism]]"
+  - "[[Single Point of Truth|Single Point of Truth]]"
+  - "[[Polymorphism]]"
 tags:
   - interface
   - l/java
@@ -22,7 +22,7 @@ depending on the version of Java.
 
 ---
 
-Interfaces provide a natural basis for [[julzdao/computer-science/Polymorphism]] and [[julzdao/computer-science/Functional Interface]].
+Interfaces provide a natural basis for [[Polymorphism]] and [[Functional Interface]].
 
 ```java
 interface Sensor {

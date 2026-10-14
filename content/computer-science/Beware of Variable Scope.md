@@ -2,7 +2,7 @@
 title: Beware of Variable Scope
 description: Important aspect for variable handling
 cs-foundations:
-  - "[[julzdao/computer-science/Encapsulation]]"
+  - "[[Encapsulation]]"
 timestamp: 2025-11-25T01:35:00
 type:
   - insight

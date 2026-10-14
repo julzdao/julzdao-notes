@@ -7,7 +7,7 @@ icon: File
 tags:
   - my-research
   - ag/philosophy
-cover: "[[julzdao/agriculture/assets/empowering-to-grow.png]]"
+cover: "[[empowering-to-grow.png]]"
 ---
 The ultimate goal of the research, 
 is to empower others to grow food on their own. 
@@ -16,4 +16,4 @@ To embody the [[itadakimasu]] from the first step.
 
 ---
 
-![[julzdao/agriculture/assets/empowering-to-grow.png]]
+![[empowering-to-grow.png]]

@@ -8,13 +8,13 @@ cover:
 lifecycle:
   - seed
 cs-foundations:
-  - "[[julzdao/computer-science/Root Cause Analysis]]"
+  - "[[Root Cause Analysis]]"
 aliases:
   - 5 Whys
 ---
 The Five Whys (or 5 whys) 
 is an iterative interrogative technique 
-to power the [[julzdao/computer-science/Root Cause Analysis]]
+to power the [[Root Cause Analysis]]
 into exploring the cause and effect 
 of a problem.
 
