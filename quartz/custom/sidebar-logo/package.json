@@ -1,0 +1,27 @@
+{
+  "name": "sidebar-logo",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./components": "./dist/components/index.js"
+  },
+  "scripts": {
+    "build": "esbuild components/index.ts --bundle --platform=node --format=esm --packages=external --outbase=. --outdir=dist"
+  },
+  "quartz": {
+    "name": "sidebar-logo",
+    "displayName": "Sidebar Logo",
+    "description": "Home logo for the top of the left sidebar",
+    "version": "1.0.0",
+    "category": "component",
+    "components": {
+      "SidebarLogo": {
+        "name": "SidebarLogo",
+        "displayName": "Sidebar Logo",
+        "description": "Clickable julzdao semicircle logo",
+        "version": "1.0.0"
+      }
+    }
+  }
+}
