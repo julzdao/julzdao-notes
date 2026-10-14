@@ -1,0 +1,27 @@
+{
+  "name": "explorer-icons",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./components": "./dist/components/index.js"
+  },
+  "scripts": {
+    "build": "esbuild components/index.ts --bundle --platform=node --format=esm --packages=external --outbase=. --outdir=dist"
+  },
+  "quartz": {
+    "name": "explorer-icons",
+    "displayName": "Explorer Icons",
+    "description": "Lucide icons from note frontmatter in the explorer sidebar",
+    "version": "1.0.0",
+    "category": "component",
+    "components": {
+      "ExplorerIcons": {
+        "name": "ExplorerIcons",
+        "displayName": "Explorer Icons",
+        "description": "Adds frontmatter icons to explorer files and folders",
+        "version": "1.0.0"
+      }
+    }
+  }
+}
