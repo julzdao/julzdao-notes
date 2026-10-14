@@ -1,0 +1,200 @@
+@use "../variables.scss" as *;
+
+// Quartz shares this list markup between folder pages, tag pages, and their previews.
+// The title link covers the row; tag links sit above it and keep their own targets.
+:is(body #quartz-root, body > .popover) ul.section-ul {
+  margin: 1.5rem 0 0;
+  padding: 0;
+  list-style: none;
+
+  > li.section-li {
+    margin: 0;
+    border-bottom: 1px solid var(--lightgray);
+
+    > .section {
+      position: relative;
+      display: grid;
+      grid-template-columns: 8.5rem minmax(0, 1fr) minmax(0, 10rem);
+      align-items: center;
+      gap: 0.75rem;
+      box-sizing: border-box;
+      height: 4.5rem;
+      padding: 0.65rem 1rem;
+      background: transparent;
+      transition:
+        background-color 180ms ease,
+        color 180ms ease;
+
+      &:hover,
+      &:focus-within {
+        background: #2b2b2b;
+        color: #fdfdff;
+      }
+
+      > .meta {
+        position: relative;
+        margin: 0;
+        padding-right: 1.5rem;
+        opacity: 1;
+        color: inherit;
+        font-family: var(--codeFont);
+        font-size: 0.85rem;
+        white-space: nowrap;
+
+        &::after {
+          position: absolute;
+          top: 50%;
+          right: 0.2rem;
+          width: 0.55rem;
+          height: 0.55rem;
+          transform: translateY(-50%);
+          border-radius: 50%;
+          background: var(--lightgray);
+          content: "";
+        }
+      }
+
+      &:hover > .meta::after,
+      &:focus-within > .meta::after {
+        background: #30f382;
+      }
+
+      > .desc {
+        min-width: 0;
+
+        > h3 {
+          margin: 0;
+          overflow: hidden;
+          font-family: var(--titleFont);
+          font-size: clamp(0.9rem, 1.4vw, 1.1rem);
+          line-height: 1.3;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+
+          > a.internal {
+            color: inherit;
+            background: transparent;
+            text-decoration: none;
+
+            &::after {
+              position: absolute;
+              inset: 0;
+              content: "";
+            }
+          }
+        }
+      }
+
+      > .tags {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        gap: 0.4rem;
+        min-width: 0;
+        max-width: 10rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+          min-width: 0;
+          margin: 0;
+
+          &:nth-child(n + 3) {
+            display: none;
+          }
+        }
+
+        a.tag-link {
+          display: block;
+          overflow: hidden;
+          padding: 0.35rem 0.45rem;
+          color: #666;
+          background: #fff;
+          font-family: var(--codeFont);
+          font-size: 0.7rem;
+          text-decoration: none;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          border-radius: 0;
+
+          &::before {
+            content: "#";
+          }
+
+          &:hover,
+          &:focus-visible {
+            color: #2b2b2b;
+            background: #30f382;
+          }
+        }
+      }
+    }
+  }
+}
+
+:root[saved-theme="dark"]
+  :is(body #quartz-root, body > .popover)
+  ul.section-ul
+  > li.section-li
+  > .section {
+  &:hover,
+  &:focus-within {
+    background: #34383b;
+  }
+
+  > .tags a.tag-link {
+    color: #eee;
+    background: #41454a;
+
+    &:hover,
+    &:focus-visible {
+      color: #1d2420;
+      background: #30f382;
+    }
+  }
+}
+
+@media all and ($mobile) {
+  :is(body #quartz-root, body > .popover) ul.section-ul > li.section-li > .section {
+    grid-template-columns: 6.75rem minmax(0, 1fr) minmax(0, 7rem);
+    gap: 0.35rem;
+    padding-inline: 0.5rem;
+
+    > .meta {
+      padding-right: 0;
+      font-size: 0.7rem;
+
+      &::after {
+        display: none;
+      }
+    }
+
+    > .tags {
+      max-width: 7rem;
+    }
+  }
+}
+
+// Previews are mounted directly under body and show a compact date/title list.
+body > .popover ul.section-ul {
+  margin-top: 0.75rem;
+
+  > li.section-li > .section {
+    grid-template-columns: 8.5rem minmax(0, 1fr) !important;
+    height: 3.5rem !important;
+    padding: 0.5rem 0.4rem;
+
+    > .tags {
+      display: none !important;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :is(body #quartz-root, body > .popover) ul.section-ul > li.section-li > .section {
+    transition: none;
+  }
+}

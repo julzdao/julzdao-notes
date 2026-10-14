@@ -1,0 +1,221 @@
+.center .note-filters {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr);
+  margin: 1.5rem 0 0;
+  border-block: 1px solid var(--lightgray);
+  font-family: var(--codeFont);
+
+  .note-filter-panel {
+    display: grid;
+    grid-template-columns: minmax(5.5rem, 35%) minmax(0, 1fr);
+    gap: 0.75rem;
+    min-width: 0;
+    height: 17rem;
+    padding: 1.2rem 0.75rem;
+    box-sizing: border-box;
+
+    + .note-filter-panel {
+      border-left: 1px solid var(--lightgray);
+    }
+
+    h2 {
+      position: relative;
+      margin: 0;
+      padding-left: 0.75rem;
+      color: var(--dark);
+      font-family: var(--codeFont);
+      font-size: clamp(0.75rem, 1.1vw, 0.95rem);
+      font-weight: 400;
+      line-height: 1.3;
+
+      &::before {
+        position: absolute;
+        top: 0.2rem;
+        left: 0;
+        width: 0.4rem;
+        height: 0.7rem;
+        background: #30f382;
+        content: "";
+      }
+    }
+  }
+
+  .note-filter-options {
+    min-width: 0;
+    max-height: 100%;
+    overflow-y: auto;
+    scrollbar-width: thin;
+  }
+
+  .note-filter-type .note-filter-options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15rem;
+  }
+
+  button.note-filter-option {
+    border: 0;
+    border-radius: 0;
+    color: var(--dark);
+    font-family: var(--codeFont);
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition:
+      background-color 160ms ease,
+      color 160ms ease;
+
+    &:focus-visible {
+      outline: 2px solid #30f382;
+      outline-offset: 2px;
+    }
+  }
+
+  button.note-filter-option-type {
+    display: flex;
+    align-items: center;
+    order: 100;
+    gap: 0.55rem;
+    width: 100%;
+    min-height: 1.75rem;
+    padding: 0;
+    background: transparent;
+    text-align: left;
+
+    &::before {
+      flex: 0 0 0.8rem;
+      height: 0.8rem;
+      background: #fff;
+      content: "";
+    }
+
+    &[aria-pressed="true"]::before {
+      background: #30f382;
+    }
+
+    &:hover {
+      color: #159852;
+    }
+
+    &[data-value="fundamental"] {
+      order: 1;
+    }
+
+    &[data-value="principle"] {
+      order: 2;
+    }
+
+    &[data-value="concept"] {
+      order: 3;
+    }
+
+    &[data-value="insight"] {
+      order: 4;
+    }
+
+    &[data-value="technique"] {
+      order: 5;
+    }
+
+    &[data-value="reference"] {
+      order: 6;
+    }
+
+    &[data-value="moc"] {
+      order: 7;
+    }
+
+    &[data-value="exercise"] {
+      order: 8;
+    }
+  }
+
+  .note-filter-tags .note-filter-options {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-rows: min-content;
+    align-content: start;
+    gap: 0.4rem;
+  }
+
+  button.note-filter-option-tag {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0.45rem 0.6rem;
+    background: #fff;
+    color: #666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    &:hover,
+    &[aria-pressed="true"] {
+      background: #30f382;
+      color: #202720;
+    }
+  }
+
+  .note-filter-status {
+    grid-column: 1 / -1;
+    margin: 0;
+    padding: 0.35rem 0.75rem;
+    border-top: 1px solid var(--lightgray);
+    color: var(--darkgray);
+    font-size: 0.7rem;
+  }
+}
+
+.center .note-filters:not([data-ready="true"]) {
+  display: none;
+}
+
+.center:has(.note-filters[data-ready="true"]) .page-listing > p:first-child {
+  display: none;
+}
+
+.note-filter-empty {
+  margin: 1rem 0;
+  color: var(--darkgray);
+}
+
+body > .popover .note-filters {
+  display: none;
+}
+
+:root[saved-theme="dark"] .center .note-filters {
+  button.note-filter-option-type::before,
+  button.note-filter-option-tag {
+    background: #41454a;
+    color: #eee;
+  }
+
+  button.note-filter-option-type[aria-pressed="true"]::before,
+  button.note-filter-option-tag[aria-pressed="true"],
+  button.note-filter-option-tag:hover {
+    background: #30f382;
+    color: #202720;
+  }
+}
+
+@media (max-width: 700px) {
+  .center .note-filters {
+    grid-template-columns: 1fr;
+
+    .note-filter-panel {
+      height: auto;
+      max-height: 17rem;
+      grid-template-columns: 7rem minmax(0, 1fr);
+
+      + .note-filter-panel {
+        border-top: 1px solid var(--lightgray);
+        border-left: 0;
+      }
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .center .note-filters button.note-filter-option {
+    transition: none;
+  }
+}

@@ -1,3 +1,153 @@
 @use "./variables.scss" as *;
+@use "./components/note-list-item";
+@use "./components/note-filters";
+@use "./components/breadcrumbs";
+@use "./components/note-cover";
+@use "./components/sidebar-logo";
+@use "./components/search-button";
+@use "./components/sidebar-footer";
+@use "./components/explorer";
+@use "./components/grid-cards";
 
 // put your custom CSS here!
+:root {
+  --accent-h: 145;
+  --accent-s: 90%;
+  --accent-l: 57%;
+  --color-accent: #30f382;
+}
+
+:root:not([saved-theme="dark"]) {
+  --color-base-00: #f2f1f6;
+  --lightgray: #e2e2e2;
+  --background-modifier-border: var(--lightgray);
+  --divider-color: var(--lightgray);
+}
+
+/** 
+* Quartz Themes gives the desktop page shell a secondary tab background.
+* Keep the shell on the same surface as the body and the Quartz layout.
+*/ 
+@media all and ($desktop) {
+  :root:is([saved-theme="light"], [saved-theme="dark"])
+    body[data-slug]
+    div#quartz-root.page:not([data-frame="canvas"]):not([data-frame="excalidraw"]) {
+    background-color: var(--background-primary);
+  }
+}
+
+.markdown-rendered {
+  padding: 1rem 6rem 1rem 2.2rem;
+
+  @media all and ($tablet) {
+    padding: 1rem 2rem 1rem 1rem;
+  }
+
+  @media all and ($mobile) {
+    padding: 1rem 1rem;
+  }
+}
+
+// Quartz uses --darkgray for prose by default. Keep note text at the theme's
+// strongest foreground color while preserving the softer colors in navigation.
+.center article .markdown-rendered {
+  color: var(--dark);
+
+  :is(p, li, ul, ol, td, th, blockquote) {
+    color: var(--dark);
+  }
+}
+
+// Folder and tag listings use the space reserved for the otherwise empty right sidebar.
+body:is([data-slug^="tags/"], [data-slug="tags"], [data-slug$="/index"]) .page > #quartz-body {
+  grid-template-columns: $sidePanelWidth minmax(0, 1fr);
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "grid-sidebar-left grid-header"
+    "grid-sidebar-left grid-center"
+    "grid-sidebar-left grid-footer";
+
+  > .sidebar.right {
+    display: none;
+  }
+
+  > .center {
+    box-sizing: border-box;
+    padding-right: clamp(2rem, 5vw, 5rem);
+  }
+
+  @media all and ($mobile) {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "grid-sidebar-left"
+      "grid-header"
+      "grid-center"
+      "grid-footer";
+
+    > .center {
+      padding-right: 1rem;
+    }
+  }
+}
+
+.page > #quartz-body > .sidebar.left {
+  overflow-y: auto;
+
+  @media all and ($mobile) {
+    flex-wrap: wrap;
+    overflow: visible;
+  }
+}
+
+// Unlayered custom CSS takes precedence over Obsidian's layered sidebar colors.
+html[saved-theme="light"] body .page > #quartz-body > .sidebar.left,
+html[saved-theme="light"] body .page > #quartz-body > .sidebar.right,
+html[saved-theme="dark"] body .page > #quartz-body > .sidebar.left,
+html[saved-theme="dark"] body .page > #quartz-body > .sidebar.right {
+  background-color: var(--background-primary);
+}
+
+h1.article-title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.15;
+  font-weight: 300;
+}
+
+.page-footer > .graph {
+  width: 100%;
+
+  > .graph-outer {
+    height: clamp(18rem, 40vw, 28rem);
+  }
+}
+
+@mixin linkBase {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0.1rem 0.1rem;
+  border-bottom: 2px solid var(--link-color);
+  color: var(--dark);
+  display: inline;
+}
+
+$linkColorOnHOver: #2b2b2b;
+
+body #quartz-root a.external-link {
+  @include linkBase;
+
+  &:hover {
+    // TODO: Update external link color
+    background-color: var(--link-color);
+    color: $linkColorOnHOver;
+  }
+}
+
+body #quartz-root a.internal-link {
+  @include linkBase;
+
+  &:hover {
+    background-color: var(--link-color);
+    color: $linkColorOnHOver;
+  }
+}

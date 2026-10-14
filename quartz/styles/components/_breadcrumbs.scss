@@ -1,0 +1,46 @@
+// Adjust these tokens to restyle light-theme breadcrumbs without changing note links.
+html[saved-theme="light"] {
+  --breadcrumb-link-color: var(--gray);
+  --breadcrumb-hover-color: var(--dark);
+  --breadcrumb-current-color: var(--darkgray);
+  --breadcrumb-separator-color: var(--gray);
+}
+
+// Override Obsidian's theme groups a.internal-link and breadcrumb anchors in one rule.
+@layer obsidian-theme {
+  html[saved-theme="light"] body #quartz-root .breadcrumb-container .breadcrumb-element > a {
+    color: var(--breadcrumb-link-color);
+    background-color: transparent;
+    text-decoration: none;
+    transition: color 180ms ease;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--breadcrumb-hover-color);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--color-accent);
+      outline-offset: 3px;
+    }
+  }
+
+  html[saved-theme="light"]
+    body
+    #quartz-root
+    .breadcrumb-container
+    .breadcrumb-element:last-child
+    > a {
+    color: var(--breadcrumb-current-color);
+  }
+
+  html[saved-theme="light"] body #quartz-root .breadcrumb-container .breadcrumb-element > p {
+    color: var(--breadcrumb-separator-color);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html[saved-theme="light"] body #quartz-root .breadcrumb-container .breadcrumb-element > a {
+    transition: none;
+  }
+}

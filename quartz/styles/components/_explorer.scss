@@ -1,0 +1,181 @@
+@use "../variables.scss" as *;
+
+$textOnAccent: #202020;
+
+// Scoped under #quartz-root so it outranks both the explorer plugin's own CSS
+// and the Obsidian theme layer, which styles `.nav-file-title` / `.tree-item-self`.
+body #quartz-root .sidebar.left .explorer {
+  width: 100%;
+
+  // The tree is the navigation; the "Explorer" heading and its fold toggle are noise on desktop.
+  > button.desktop-explorer {
+    display: none;
+  }
+
+  .explorer-content {
+    margin-top: 0;
+    border-top: 1px solid var(--lightgray);
+    // Same surface as the sidebar; also keeps the mobile slide-out drawer opaque.
+    background: var(--background-primary);
+  }
+
+  .explorer-content ul.explorer-ul > li:not(.overflow-end) {
+    border-bottom: 1px solid var(--lightgray);
+  }
+
+  .explorer-icon {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 1rem;
+    height: 1rem;
+    color: currentColor;
+
+    svg {
+      width: 100%;
+      height: 100%;
+      // The Obsidian theme gives sidebar SVGs their own muted color; follow the row instead.
+      color: inherit;
+      stroke: currentColor;
+      stroke-width: 1.75;
+      opacity: 1;
+    }
+  }
+
+  // Folder rows: icon + name on the left, chevron on the right.
+  .folder-container {
+    gap: 0.6rem;
+    padding: 0.7rem 0.75rem;
+    transition:
+      background-color 180ms ease,
+      color 180ms ease;
+
+    > div {
+      flex: 1 1 auto;
+      min-width: 0;
+    }
+
+    > svg.folder-icon {
+      order: 2;
+      margin: 0;
+      color: var(--gray);
+      transform: rotate(180deg);
+    }
+
+    .folder-button {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      width: 100%;
+      padding: 0;
+      background: none;
+      color: var(--dark);
+      font-family: var(--titleFont);
+      font-size: 0.9rem;
+      font-weight: 400;
+      line-height: 1.4;
+      text-decoration: none;
+    }
+
+    .folder-title {
+      overflow: hidden;
+      color: inherit;
+      font-family: inherit;
+      font-size: inherit;
+      font-weight: inherit;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    &:hover {
+      background: var(--color-accent);
+
+      .folder-button,
+      > svg.folder-icon {
+        color: $textOnAccent;
+      }
+    }
+  }
+
+  li:has(> .folder-outer:not(.open)) > .folder-container > svg.folder-icon {
+    transform: rotate(0deg);
+  }
+
+  li:has(> .folder-outer.open) > .folder-container {
+    background: color-mix(in srgb, var(--lightgray) 45%, transparent);
+
+    &:hover {
+      background: var(--color-accent);
+    }
+  }
+
+  .explorer-content .folder-outer > ul {
+    margin: 0;
+    padding: 0.25rem 0 0.5rem;
+    border-left: 0;
+  }
+
+  // Nested folders sit inside an open section: lighter, indented, no separators.
+  .folder-outer .folder-container {
+    padding: 0.45rem 0.75rem 0.45rem 1.5rem;
+
+    .folder-button {
+      font-size: 0.85rem;
+    }
+  }
+
+  .folder-outer .folder-outer > ul {
+    padding-left: 0.75rem;
+  }
+
+  // Note rows.
+  .explorer-content ul li > a.nav-file-title {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0;
+    padding: 0.45rem 0.75rem 0.45rem 1.5rem;
+    border-radius: 0;
+    background: transparent;
+    color: var(--darkgray);
+    font-family: var(--bodyFont);
+    font-size: 0.9rem;
+    line-height: 1.35;
+    text-decoration: none;
+    opacity: 1;
+    transition:
+      background-color 180ms ease,
+      color 180ms ease;
+
+    &:hover,
+    &:focus-visible {
+      background: var(--color-accent);
+      color: $textOnAccent;
+    }
+
+    &:focus-visible {
+      outline: 1px solid var(--dark);
+      outline-offset: -1px;
+    }
+
+    &.active {
+      background: color-mix(in srgb, var(--lightgray) 70%, transparent);
+      box-shadow: inset 3px 0 0 var(--color-accent);
+      color: var(--dark);
+      font-weight: 600;
+
+      &:hover {
+        background: var(--color-accent);
+        color: $textOnAccent;
+      }
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .folder-container,
+    .explorer-content ul li > a.nav-file-title {
+      transition: none;
+    }
+  }
+}

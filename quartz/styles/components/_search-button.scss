@@ -1,0 +1,28 @@
+@use "../variables.scss" as *;
+
+$strokeColorOnHover:  #202020;
+
+// Search is wrapped by Quartz's grouped toolbar, so it is not a direct child
+// of the sidebar. Keep this rule unlayered so it outranks the Obsidian theme
+// layer in both light and dark modes.
+body #quartz-root .sidebar.left .search > button.search-button {
+  border-radius: 0;
+
+  &:hover {
+    background: var(--color-accent);
+
+    & p {
+        color: $strokeColorOnHover;
+    }
+
+    & svg .search-path {
+        stroke: $strokeColorOnHover;
+    }
+  }
+
+  & p {
+    font-family: var(--titleFont);
+    font-size: 0.9rem;
+  }
+
+}
