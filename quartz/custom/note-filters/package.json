@@ -1,0 +1,27 @@
+{
+  "name": "note-filters",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./components": "./dist/components/index.js"
+  },
+  "scripts": {
+    "build": "esbuild components/index.ts --bundle --platform=node --format=esm --packages=external --outbase=. --outdir=dist"
+  },
+  "quartz": {
+    "name": "note-filters",
+    "displayName": "Note Filters",
+    "description": "In-place type and tag filters for folder and tag listings",
+    "version": "1.0.0",
+    "category": "component",
+    "components": {
+      "NoteFilters": {
+        "name": "NoteFilters",
+        "displayName": "Note Filters",
+        "description": "Single-select type and tag filters",
+        "version": "1.0.0"
+      }
+    }
+  }
+}
