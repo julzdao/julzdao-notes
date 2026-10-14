@@ -15,3 +15,8 @@ Quartz is a set of tools that helps you publish your [digital garden](https://jz
     <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
   </a>
 </p>
+
+## License
+
+- **Code** (Quartz and the custom plugins under `quartz/`): [MIT](LICENSE.txt)
+- **Content** (notes and images in `content/`): [CC BY-NC-SA 4.0](LICENSE-CONTENT.txt)
