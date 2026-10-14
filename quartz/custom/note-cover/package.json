@@ -1,0 +1,27 @@
+{
+  "name": "note-cover",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./components": "./dist/components/index.js"
+  },
+  "scripts": {
+    "build": "esbuild components/index.ts --bundle --platform=node --format=esm --packages=external --outbase=. --outdir=dist"
+  },
+  "quartz": {
+    "name": "note-cover",
+    "displayName": "Note Cover",
+    "description": "Cover image and selected read-only metadata for note pages",
+    "version": "1.0.0",
+    "category": "component",
+    "components": {
+      "NoteCover": {
+        "name": "NoteCover",
+        "displayName": "Note Cover",
+        "description": "Cover image, tags, description, published date, type, and duration",
+        "version": "1.0.0"
+      }
+    }
+  }
+}
