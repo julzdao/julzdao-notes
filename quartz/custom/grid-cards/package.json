@@ -1,0 +1,27 @@
+{
+  "name": "grid-cards",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./components": "./dist/components/index.js"
+  },
+  "scripts": {
+    "build": "esbuild components/index.ts --bundle --platform=node --format=esm --packages=external --outbase=. --outdir=dist"
+  },
+  "quartz": {
+    "name": "grid-cards",
+    "displayName": "Grid Cards",
+    "description": "Card grid with flippable fronts and backs for folder and tag pages",
+    "version": "1.0.0",
+    "category": "component",
+    "components": {
+      "GridCards": {
+        "name": "GridCards",
+        "displayName": "Grid Cards",
+        "description": "Cover, title and excerpt cards for listed notes",
+        "version": "1.0.0"
+      }
+    }
+  }
+}
